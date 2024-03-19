@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="naoffer-intf" />
-        <module name="un" />
-        <module name="naoffer-service" />
-        <module name="naoffer-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="naoffer" target="1.8" />
       <module name="naoffer-intf" target="1.8" />
+      <module name="naoffer-service" target="1.8" />
+      <module name="naoffer-web" target="1.8" />
       <module name="naofferintf" target="1.8" />
+      <module name="un" target="13" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
